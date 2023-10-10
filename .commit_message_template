@@ -1,0 +1,20 @@
+# ===== Commit Message =====
+
+# ===== Emoji Prefix =====
+# 🎉  :tada: 初回コミット
+# 🐛  :bug: バグ修正
+# 👍  :+1: 機能改善
+# ✨  :sparkles: 機能追加
+# 🎨  :art: デザイン変更のみ
+# 💢  :anger: コンフリクト修正
+# 🚧  :construction: WIP (Work In Progress = 作業途中)
+# 📝  :memo: 文言修正
+# ♻️  :recycle: リファクタリング
+# 🔥  :fire: 不要な機能・使われなくなった機能の削除
+# 💚  :green_heart: テストやCIの修正・改善
+# 👕  :shirt: Lintエラーの修正やコードスタイルの修正
+# 🚀  :rocket: パフォーマンス改善
+# 🆙  :up: 依存パッケージなどのアップデート
+# 👮  :cop: セキュリティ関連の改善
+# 🛠  :tools: config変更
+# 📚  :books: ドキュメント追加・修正

@@ -1,0 +1,20 @@
+[user]
+        name = g-auctioneer
+        email = 93477932+g-auctioneer@users.noreply.github.com
+[alias]
+        ck = checkout
+        st = status
+        br = branch
+        dt = difftool
+[push]
+        default = simple
+[diff]
+        tool = vimdiff
+[difftool]
+        prompt = false
+[merge]
+        tool = vimdiff
+[mergetool]
+        prompt = false
+[commit]
+        template = ~/dotfiles/.commit_message_template
