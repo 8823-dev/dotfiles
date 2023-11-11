@@ -1,6 +1,8 @@
-[user]
-        name = g-auctioneer
-        email = 93477932+g-auctioneer@users.noreply.github.com
+; [user]
+;         name = falcon
+;         email = 93477932+const-falcon@users.noreply.github.com
+[include]
+        path = ~/dotfiles/git/user
 [alias]
         ck = checkout
         st = status
