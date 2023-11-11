@@ -1,5 +1,6 @@
 fish/conf.d/env.fish
 fish/conf.d/alias_local.fish
 
-.vim/.netrwhist
+vim/.vim/.netrwhist
 
+git/user

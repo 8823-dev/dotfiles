@@ -19,4 +19,4 @@
 [mergetool]
         prompt = false
 [commit]
-        template = ~/dotfiles/.commit_message_template
+        template = ~/dotfiles/git/commit_message_template
