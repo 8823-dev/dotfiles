@@ -1,7 +1,7 @@
 date
 echo "===== setup start. ====="
 
-ln -sf ~/.config/fish ~/dotfiles/fish
+ln -sf ~/dotfiles/fish ~/.config/fish
 ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/vim/.vim ~/.vim
 ln -sf ~/dotfiles/vim/.vimrc ~/.vimrc
