@@ -1,10 +1,15 @@
 date
 echo "===== setup start. ====="
 
-ln -sf ~/dotfiles/fish ~/.config/fish
-ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
-ln -sf ~/dotfiles/vim/.vim ~/.vim
-ln -sf ~/dotfiles/vim/.vimrc ~/.vimrc
+rm -rf ~/.config/fish
+rm -f ~/.gitconfig
+rm -rf ~/.vim
+rm -f ~/.vimrc
+
+ln -s ~/dotfiles/fish ~/.config/fish
+ln -s ~/dotfiles/git/.gitconfig ~/.gitconfig
+ln -s ~/dotfiles/vim/.vim ~/.vim
+ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
 
 # iTerm2 の設定を反映
 # @link https://qiita.com/cakipy/items/2e5d03d5e063c6734b34
