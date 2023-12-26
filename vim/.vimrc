@@ -58,3 +58,27 @@ highlight DiffAdd    cterm=bold ctermfg=10 ctermbg=22
 highlight DiffDelete cterm=bold ctermfg=10 ctermbg=52
 highlight DiffChange cterm=bold ctermfg=10 ctermbg=17
 highlight DiffText   cterm=bold ctermfg=10 ctermbg=21
+
+
+"----------------------------------------
+" Neobundle plugins
+"----------------------------------------
+set nocompatible
+filetype off
+
+if has("vim_starting")
+  set runtimepath+=~/dotfiles/vim/.vim/bundle/neobundle.vim
+  call neobundle#begin(expand("~/dotfiles/vim/.vim/bundle/"))
+endif
+
+NeoBundle 'scrooloose/nerdtree'
+
+call neobundle#end()
+filetype plugin indent on
+
+
+"----------------------------------------
+" NERDTree 自動起動
+"----------------------------------------
+autocmd VimEnter *  NERDTree
+
