@@ -78,7 +78,7 @@ filetype plugin indent on
 
 
 "----------------------------------------
-" NERDTree 自動起動
+" NERDTree 自動起動、隠しファイル表示
 "----------------------------------------
-autocmd VimEnter *  NERDTree
-
+autocmd VimEnter * NERDTree
+let NERDTreeShowHidden = 1
