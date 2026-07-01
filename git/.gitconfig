@@ -1,0 +1,20 @@
+[alias]
+        ck = checkout
+        st = status
+        br = branch
+        dt = difftool
+[push]
+        default = simple
+[diff]
+        tool = vimdiff
+[difftool]
+        prompt = false
+[merge]
+        tool = vimdiff
+[mergetool]
+        prompt = false
+[core]
+	editor = vi
+[user]
+	name = Shun
+	email = 93477932+8823-dev@users.noreply.github.com
