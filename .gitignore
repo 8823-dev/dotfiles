@@ -1,0 +1,5 @@
+fish/conf.d/alias_local.fish
+fish/conf.d/env.fish
+
+vim/.vim/.netrwhist
+vim/.vim/bundle/*
